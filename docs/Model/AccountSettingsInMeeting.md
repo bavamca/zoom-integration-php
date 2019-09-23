@@ -1,0 +1,50 @@
+# AccountSettingsInMeeting
+
+## Properties
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**e2e_encryption** | **bool** | Require that all meetings are encrypted using AES | [optional] 
+**chat** | **bool** | Allow meeting participants to send a message visible to all participants | [optional] 
+**private_chat** | **bool** | Allow meeting participants to send a private 1:1 message to another participants | [optional] 
+**auto_saving_chat** | **bool** | Automatically save all in-meeting chats so that hosts do not need to manually save the text of the chat after the meeting starts | [optional] 
+**file_transfer** | **bool** | Hosts and participants can send files through the in-meeting chat | [optional] 
+**feedback** | **bool** | Add a Feedback tab to the Windows Settings or Mac Preferences dialog, and also enable users to provide feedback to Zoom at the end of the meeting | [optional] 
+**post_meeting_feedback** | **bool** | Display a thumbs up/down survey at the end of each meeting | [optional] 
+**co_host** | **bool** | Allow the host to add co-hosts | [optional] 
+**polling** | **bool** | Add &#39;Polls&#39; to the meeting controls. | [optional] 
+**attendee_on_hold** | **bool** | Allow hosts to temporarily remove an attendee from the meeting | [optional] 
+**show_meeting_control_toolbar** | **bool** | Always show meeting control toolbar | [optional] 
+**allow_show_zoom_windows** | **bool** | Show Zoom Desktop application when sharing screen | [optional] 
+**annotation** | **bool** | Allow participants to use annotation tools to add information to shared screens | [optional] 
+**whiteboard** | **bool** | Allow participants to share a whiteboard that includes annotation tools | [optional] 
+**webinar_question_answer** | **bool** | Q&amp;A in webinar | [optional] 
+**anonymous_question_answer** | **bool** | Allow Anonymous Q&amp;A in Webinar | [optional] 
+**breakout_room** | **bool** | Allow host to split meeting participants into separate, smaller rooms | [optional] 
+**closed_caption** | **bool** | Allow host to type closed captions or assign a participant/third party device to add closed captions | [optional] 
+**far_end_camera_control** | **bool** | Allow another user to take control of your camera during a meeting | [optional] 
+**group_hd** | **bool** | Activate higher quality video for host and participants. (This will use more bandwidth.) | [optional] 
+**virtual_background** | **bool** | Allow users to replace their background with any selected image. Choose or upload an image in the Zoom Desktop application settings. | [optional] 
+**watermark** | **bool** | Add watermark when viewing shared screen | [optional] 
+**alert_guest_join** | **bool** | Identify guest participants in the meeting/webinar | [optional] 
+**auto_answer** | **bool** | Enable users to see and add contacts to &#39;auto-answer group&#39; in the contact list on chat. Any call from members of this group will be automatically answered. | [optional] 
+**p2p_connetion** | **bool** | Peer to Peer connection while only 2 people are in a meeting | [optional] 
+**p2p_ports** | **bool** | P2P listening ports range | [optional] 
+**ports_range** | **string** | Listening ports range, separated by comma (ex 55,56). The ports range must be between 1 to 65535. | [optional] [default to '']
+**sending_default_email_invites** | **bool** | Only show default email when sending email invites | [optional] 
+**use_html_format_email** | **bool** | Use HTML format email for Outlook plugin | [optional] 
+**dscp_marking** | **bool** | DSCP marking | [optional] 
+**dscp_audio** | **int** | DSCP Audio | [optional] 
+**dscp_video** | **int** | DSCP Video | [optional] 
+**stereo_audio** | **bool** | Allow users to select stereo audio in their client settings | [optional] 
+**original_audio** | **bool** | Allow users to select original sound in their client settings | [optional] 
+**screen_sharing** | **bool** | Allow screen sharing | [optional] 
+**remote_control** | **bool** | Allow users to request remote control | [optional] 
+**attention_tracking** | **bool** | Lets the host see an indicator in the participant panel if a meeting/webinar attendee does not have Zoom in focus during screen sharing | [optional] 
+**allow_live_streaming** | **bool** | Allow live streaming | [optional] 
+**workplace_by_facebook** | **bool** | Workplace by facebook | [optional] 
+**custom_live_streaming** | **bool** | Custom live streaming | [optional] 
+**custom_service_instructions** | **string** | Custom service instructions | [optional] 
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
+
